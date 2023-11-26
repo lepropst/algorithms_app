@@ -1,0 +1,16 @@
+// sample
+digraph {
+	ACBD
+	AC
+	ACBD -> AC [label=-1]
+	A
+	AC -> A [label=0]
+	C
+	AC -> C [label=0]
+	BD
+	ACBD -> BD [label=-1]
+	B
+	BD -> B [label=1]
+	D
+	BD -> D [label=1]
+}

@@ -1,0 +1,14 @@
+// after_lrotate L
+digraph {
+	L
+	J
+	L -> J
+	E
+	J -> E
+	K
+	J -> K
+	S
+	L -> S
+	Y
+	S -> Y
+}

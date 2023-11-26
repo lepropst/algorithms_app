@@ -1,0 +1,16 @@
+// example.png
+digraph {
+	L
+	J
+	L -> J
+	E
+	J -> E
+	F
+	E -> F
+	K
+	J -> K
+	S
+	L -> S
+	Y
+	S -> Y
+}

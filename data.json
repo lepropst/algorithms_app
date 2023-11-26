@@ -1,0 +1,22 @@
+{
+  "lexical_arr": ["J", "E", "L", "S", "K", "Y", "K", "L", "F", "L"],
+  "numerical_arr": [133, 58, 30, 69, 19, 130, 7, 83, 15, 118],
+  "data_structure_nodes": [{}],
+  "undirected_graph_nodes": [
+    { "data": 0, "vertices": [1], "weight": 1 },
+    { "data": 1, "vertices": [2], "weight": 1 },
+    { "data": 2, "vertices": [3], "weight": 3 },
+    { "data": 3, "vertices": [4], "weight": 5 },
+    { "data": 4, "vertices": [0], "weight": 2 }
+  ],
+  "string_one": "DDBABC",
+
+  "string_two": "ADBDAAC",
+  "knapsack_arr": [
+    { "weight": 10, "profit": 5 },
+    { "weight": 20, "profit": 3 },
+    { "weight": 8, "profit": 2.5 },
+    { "weight": 12, "profit": 2 },
+    { "weight": 15, "profit": 4 }
+  ]
+}
