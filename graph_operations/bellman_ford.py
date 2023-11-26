@@ -1,3 +1,6 @@
+import copy
+
+
 class Graph:
     def __init__(self, vertices):
         self.V = vertices  # No. of vertices
@@ -12,6 +15,22 @@ class Graph:
         print("Vertex Distance from Source")
         for i in range(self.V):
             print("{0}\t\t{1}".format(i, dist[i]))
+
+    def adjacencyArray(self):
+        tmp = [copy.deepcopy([0]) * self.V] * self.V
+        l = [[x[0], x[1]] for x in self.graph]
+        print(l)
+        print(tmp)
+        for edgePair in l:
+            print(edgePair)
+            if len(edgePair) > 1:
+                x, y = edgePair[0], edgePair[1]
+                print(x, y)
+                print(tmp[x][y])
+                tmp[x][y] = "1"
+                print(tmp[x][y])
+                print(tmp)
+        return tmp
 
     # The main function that finds shortest distances from src to
     # all other vertices using Bellman-Ford algorithm. The function
